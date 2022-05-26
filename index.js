@@ -8,12 +8,16 @@ firstUserFavColor.add("Pink");
 firstUserFavColor.add("White");
 firstUserFavColor.add("Purple");
 
+
+
 const secondUserFavColor = new Set();
 secondUserFavColor.add("Blue");
 secondUserFavColor.add("Black");
 secondUserFavColor.add("Grey");
 
-const duaaa = [secondUserFavColor];
+//convert to array 
+const firstUserFavColorArr = [...firstUserFavColor];
+const secondUserFavColorArr = [...secondUserFavColor];
 
 class userEdu{
     constructor(name,city,graduate) {
@@ -33,7 +37,6 @@ const secondUserSchool3 = new userEdu("SMA 01","Surabaya",2016);
 const secondUserSchool4 = new userEdu("Universitas Maju","tangerang");
 
 const firstUserEdu = [firstUserSchool1, firstUserSchool2, firstUserSchool3];
-
 const secondUserEdu = [secondUserSchool1, secondUserSchool2, secondUserSchool3, secondUserSchool4];
 
 const firstUserFavResto = new Set();
@@ -60,15 +63,19 @@ secondUserFavResto.add("Geprek");
 secondUserFavResto.add("Pancake");
 secondUserFavResto.add("Eggy");
 
+//convert to array
+const firstUserFavRestoArr = [...firstUserFavResto];
+const secondUserFavRestoArr = [...secondUserFavResto];
+
 const monica = {
     name: "Monica",
     gender: "Female",
     age: 17,
     email: "monica@dingdong.com",
-    favoriteColor : firstUserFavColor,
+    favoriteColor : firstUserFavColorArr,
     isHavePet : "Yes",
     education: firstUserEdu,
-    favoriteRestaurant: firstUserFavResto
+    favoriteRestaurant: firstUserFavRestoArr
     
 };
 const wendy = {
@@ -76,10 +83,10 @@ const wendy = {
     gender: "Male",
     age: 23,
     email: "wendy@dingdong.com",
-    favoriteColor: duaaa,
+    favoriteColor: secondUserFavColorArr,
     isHavePet:  "No",
     education: secondUserEdu,
-    favoriteRestaurant: secondUserFavResto
+    favoriteRestaurant: secondUserFavRestoArr
 };
 
 
