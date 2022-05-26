@@ -14,7 +14,7 @@ secondUserFavColor.add("Black");
 secondUserFavColor.add("Grey");
 
 class userEdu{
-    constructor(name,city, graduate) {
+    constructor(name,city,graduate) {
         this.name = name;
         this.city = city;
         this.graduate = graduate;
@@ -31,7 +31,6 @@ const secondUserSchool3 = new userEdu("SMA 01","Surabaya",2016);
 const secondUserSchool4 = new userEdu("Universitas Maju","tangerang");
 
 const firstUserEdu = [firstUserSchool1, firstUserSchool2, firstUserSchool3];
-console.log(firstUserEdu);
 
 const secondUserEdu = [secondUserSchool1, secondUserSchool2, secondUserSchool3, secondUserSchool4];
 
