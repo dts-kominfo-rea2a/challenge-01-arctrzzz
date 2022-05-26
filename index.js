@@ -58,7 +58,7 @@ secondUserFavResto.add("Geprek");
 secondUserFavResto.add("Pancake");
 secondUserFavResto.add("Eggy");
 
-const firstUser = {
+const monica = {
     name: "Monica",
     gender: "Female",
     age: 17,
@@ -69,7 +69,7 @@ const firstUser = {
     favouriteRestaurant: firstUserFavResto
     
 };
-const secondUser = {
+const wendy = {
     name: "Wendy",
     gender: "Male",
     age: 23,
@@ -84,7 +84,7 @@ const secondUser = {
 
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
-const users = [firstUser,secondUser];
+const users = [monica,wendy];
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
