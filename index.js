@@ -13,6 +13,8 @@ secondUserFavColor.add("Blue");
 secondUserFavColor.add("Black");
 secondUserFavColor.add("Grey");
 
+const duaaa = [secondUserFavColor];
+
 class userEdu{
     constructor(name,city,graduate) {
         this.name = name;
@@ -66,7 +68,7 @@ const monica = {
     favoriteColor : firstUserFavColor,
     isHavePet : "Yes",
     education: firstUserEdu,
-    favouriteRestaurant: firstUserFavResto
+    favoriteRestaurant: firstUserFavResto
     
 };
 const wendy = {
@@ -74,10 +76,10 @@ const wendy = {
     gender: "Male",
     age: 23,
     email: "wendy@dingdong.com",
-    favoriteColor: secondUserFavColor,
+    favoriteColor: duaaa,
     isHavePet:  "No",
     education: secondUserEdu,
-    favouriteRestaurant: secondUserFavResto
+    favoriteRestaurant: secondUserFavResto
 };
 
 
